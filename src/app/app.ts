@@ -8,10 +8,11 @@ import { ProcesoComponent } from './components/proceso/proceso.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { CtaBannerComponent } from './components/cta-banner/cta-banner.component';
 import { MetricasComponent } from './components/metricas/metricas.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TopBarComponent,NavbarComponent,HeroComponent,StatsComponent,ProcesoComponent,NosotrosComponent,CtaBannerComponent,MetricasComponent],
+  imports: [RouterOutlet, TopBarComponent,NavbarComponent,HeroComponent,StatsComponent,ProcesoComponent,NosotrosComponent,CtaBannerComponent,MetricasComponent,ServiciosComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
