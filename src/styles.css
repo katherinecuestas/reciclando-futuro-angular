@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@theme {
+  --font-monda: 'Monda', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --color-rf-blanco: #ffffff;
+  --color-rf-verde: #3b4f36;
+  --color-rf-verde-oliva: #426d39;
+  --color-rf-naranja: #bb6c2a;
+  --color-rf-naranja-oscuro: #7c461b;
+  --color-rf-gris-oscuro: #3d3d3d;
+  --color-rf-gris-claro: #dcdcdc;
+}
