@@ -51,4 +51,9 @@
   
   /* Footer */
   .grid-footer { grid-template-columns: 1fr !important; }
+  
+  
+}
+[id] {
+  scroll-margin-top: 150px;
 }
