@@ -18,3 +18,37 @@
   .md\:hidden { display: none !important; }
 }
 .hidden { display: none; }
+@media (max-width: 768px) {
+  /* Top bar */
+  .top-bar { padding: 8px 16px !important; font-size: 12px !important; }
+  .topbar-hide-mobile { display: none !important; }
+
+  /* Navbar */
+  .logo-nav { height: 60px !important; }
+  .nav-inner { padding: 8px 16px !important; }
+
+  /* Hero */
+  .hero-content { padding: 60px 24px 60px 20px !important; }
+
+  /* Stats */
+  .grid-4 { grid-template-columns: repeat(2, 1fr) !important; }
+  
+  /* Proceso */
+  .grid-proceso { grid-template-columns: 1fr !important; }
+  .flecha-proceso { display: none !important; }
+  
+  /* Nosotros */
+  .grid-2 { grid-template-columns: 1fr !important; }
+  
+  /* Métricas */
+  .section-metricas { padding: 24px 16px !important; }
+  .grid-metricas { grid-template-columns: repeat(2, 1fr) !important; }
+  .grid-metricas > div { padding: 12px 8px !important; border-right: none !important; }
+  .grid-metricas > div p:first-child { font-size: 1.4rem !important; }
+  
+  /* Servicios */
+  .grid-3 { grid-template-columns: 1fr !important; }
+  
+  /* Footer */
+  .grid-footer { grid-template-columns: 1fr !important; }
+}
