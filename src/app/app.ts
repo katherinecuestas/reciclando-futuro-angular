@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,AfterViewInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -17,4 +17,16 @@ import { FooterComponent } from './components/footer/footer.component';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {}
+export class App implements AfterViewInit {
+  ngAfterViewInit() {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in-up').forEach(el => observer.observe(el));
+  }
+}
