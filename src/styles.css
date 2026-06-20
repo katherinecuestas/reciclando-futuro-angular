@@ -13,3 +13,8 @@
   --color-rf-gris-oscuro: #3d3d3d;
   --color-rf-gris-claro: #dcdcdc;
 }
+@media (min-width: 768px) {
+  .md\:flex { display: flex !important; }
+  .md\:hidden { display: none !important; }
+}
+.hidden { display: none; }
