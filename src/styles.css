@@ -18,6 +18,7 @@
   .md\:hidden { display: none !important; }
 }
 .hidden { display: none; }
+p { text-align: justify; }
 .grid-proceso { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
 @media (max-width: 768px) {
   /* Top bar */
